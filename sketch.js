@@ -38,8 +38,7 @@ function preload(){
 function setup() {
   createCanvas(600, 200);
 
-  var message = "This is a message";
- console.log(message)
+  console.log("This is a message")
   
   trex = createSprite(50,160,20,50);
   trex.addAnimation("running", trex_running);
